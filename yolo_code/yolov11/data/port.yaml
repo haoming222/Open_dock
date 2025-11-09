@@ -1,4 +1,0 @@
-train: D:/study/yolov5_study/yolov7-0.1/yolov7-0.1/grid500_dataset/train.txt
-val: D:/study/yolov5_study/yolov7-0.1/yolov7-0.1/grid500_dataset/val.txt
-nc: 2
-names: ['LZ_pier','FD_pier']
