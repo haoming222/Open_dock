@@ -1,0 +1,38 @@
+#path: ./dataset2500_2classes
+#train: images/train
+#val: images/val
+
+#train: D:/study/yolov5_study/yolov7-0.1/yolov7-0.1/grid500_dataset/images/train
+#val: D:/study/yolov5_study/yolov7-0.1/yolov7-0.1/grid500_dataset/images/val
+
+##test:
+#nc: 3
+#names: ['FD_port','XP_port','LZ_port']
+
+#train: G:/train_datasets/grid500_dataset/images/train
+#val: G:/train_datasets/grid500_dataset/images/val
+#test:
+
+
+#train: E:/train_dataset/dataset_277/train.txt
+#val: E:/train_dataset/dataset_277/val.txt
+train: D:/study/yolov5_study/yolov7-0.1/yolov7-0.1/grid500_dataset/train.txt
+val: D:/study/yolov5_study/yolov7-0.1/yolov7-0.1/grid500_dataset/val.txt
+nc: 2
+names: ['LZ_pier','FD_pier']
+
+#--weights
+#D:\study\yolov5_study\yolov5_lite\YOLOv5-Lite-1.5\weights\v5lite-g.pt
+#--cfg
+#D:\study\yolov5_study\yolov5_lite\YOLOv5-Lite-1.5\models\v5Lite-g.yaml
+#--data
+#D:\study\yolov5_study\yolov5_lite\YOLOv5-Lite-1.5\data\port.yaml
+#--epoch
+#200
+#--batch-size
+#16
+#--quad
+#--name
+#demo
+#--workers
+#8
