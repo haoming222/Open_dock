@@ -1,0 +1,16 @@
+#path: ./dataset2500_2classes
+#path: E:/train_dataset/dataset_227_delete_fault_fd
+#path: ./grid_select_dataset
+#path: G:/train_datasets/grid_select_dataset/
+#path: G:/train_datasets/grid500_dataset/
+#path: G:/train_datasets/grid300_dataset/
+#path: E:/train_dataset/grid700_dataset/
+
+path: F:/changjiangsentinel/pier_img/dataset/
+train: images/train
+val: images/val
+test: images/test
+#nc: 3
+#names: ['FD_port','XP_port','LZ_port']
+nc: 2
+names: ['LZ_pier','FD_pier']
